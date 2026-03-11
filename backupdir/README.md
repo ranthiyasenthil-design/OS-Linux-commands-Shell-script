@@ -52,14 +52,14 @@ cat < file2
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
-![Alt text](images/image3.png) 
+ 
 comm file1 file2
  ## OUTPUT
-![Alt text](images/image4.png)
+
  
 diff file1 file2
 ## OUTPUT
-![Alt text](images/image5.png)
+
 
 #Filters
 
@@ -67,7 +67,7 @@ diff file1 file2
 
 cat > file11
 ```
- worldHello
+Hello world
 This is my world
 ^d
 ```
@@ -78,21 +78,22 @@ cat > file22
 1003 | Joe |  7000 | Developer
 ^d
 ```
-cut
+
 
 cut -c1-3 file11
 ## OUTPUT
-![Alt text](images/image6.png)
+
 
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
-![Alt text](images/image7.png)
+
+
 
 cut -d "|" -f 2 file22
 ## OUTPUT
-![Alt text](images/img8.png)
+
 
 cat < newfile 
 ```
@@ -106,40 +107,40 @@ hello world
  
 grep Hello newfile 
 ## OUTPUT
-![Alt text](images/img9.png)
+
 
 
 grep hello newfile 
 ## OUTPUT
-![Alt text](images/img10.png)
+
 
 
 
 grep -v hello newfile 
 ## OUTPUT
-![Alt text](images/img1.1.png)
+
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
-![Alt text](images/img1.2.png)
+
 
 
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
-![Alt text](images/img1.3.png)
+
 
 
 
 grep -R ubuntu /etc
 ## OUTPUT
-![Alt text](images/img1.4.png)
+
 
 
 grep -w -n world newfile   
 ## OUTPUT
-![Alt text](images/img1.5.png)
+
 
 cat < newfile 
 ```
@@ -162,60 +163,60 @@ Linux is best in this World
  ```
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
-![Alt text](images/img1.6.png)
+
 
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
-![Alt text](images/img1.7.png)
+
 
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
-![Alt text](images/img1.8.png)
+
 
 
 
 egrep '(^hello)' newfile 
 ## OUTPUT
-![Alt text](images/img1.9.png)
+
 
 
 egrep '(world$)' newfile 
 ## OUTPUT
-![Alt text](images/img1.0.png)
+
 
 
 egrep '(World$)' newfile 
 ## OUTPUT
-![Alt text](images/img2.1.png)
+
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
-![Alt text](images/IMG2.2.png)
+
 
 
 egrep '[1-9]' newfile 
 ## OUTPUT
-![Alt text](images/img2.3.png)
+
 
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
-![Alt text](images/img2.4.png)
+
 
 egrep 'Linux.*World' newfile 
 ## OUTPUT
-![Alt text](images/IMG2.5.png)
+
 
 egrep l{2} newfile
 ## OUTPUT
-![Alt text](images/img2.6.png)
+
 
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
-![Alt text](images/img2.7.png)
+
 
 cat > file23
 ```
@@ -233,76 +234,76 @@ cat > file23
 
 sed -n -e '3p' file23
 ## OUTPUT
-![Alt text](images/img2.8.png)
+
 
 
 sed -n -e '$p' file23
 ## OUTPUT
-![Alt text](images/img2.9.png)
+
 
 
 sed  -e 's/Ram/Sita/' file23
 ## OUTPUT
-![Alt text](images/img3.0.png)
+
 
 
 sed  -e '2s/Ram/Sita/' file23
 ## OUTPUT
-![Alt text](images/img3.1.png)
+
 
 
 sed  '/tom/s/5000/6000/' file23
 ## OUTPUT
-![Alt text](images/img3.3.png)
+
 
 
 sed -n -e '1,5p' file23
 ## OUTPUT
-![Alt text](images/img3.2.png)
+
 
 
 sed -n -e '2,/Joe/p' file23
 ## OUTPUT
-![Alt text](images/img3.4.png)
+
 
 
 
 sed -n -e '/tom/,/Joe/p' file23
 ## OUTPUT
-![Alt text](images/img3.5.png)
+
 
 
 seq 10 
 ## OUTPUT
-![Alt text](images/img3.6.png)
+
 
 
 seq 10 | sed -n '4,6p'
 ## OUTPUT
-![Alt text](images/img3.7.png)
+
 
 
 seq 10 | sed -n '2,~4p'
 ## OUTPUT
-![Alt text](images/img3.8.png)
+
 
 
 seq 3 | sed '2a hello'
 ## OUTPUT
-![Alt text](images/img3.9.png)
+
 
 
 seq 2 | sed '2i hello'
 ## OUTPUT
-![Alt text](images/img4.0.png)
+
 
 seq 10 | sed '2,9c hello'
 ## OUTPUT
-![Alt text](images/img4.1.png)
+
 
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
-![Alt text](images/img4.2.png)
+
 
 
 sed -n '2,4{s/$/*/;p}' file23
@@ -319,7 +320,7 @@ cat > file21
 ``` 
 sort file21
 ## OUTPUT
-![Alt text](images/img4.3.png)
+
 
 cat > file22
 ```
@@ -332,14 +333,14 @@ cat > file22
 ``` 
 uniq file22
 ## OUTPUT
-![Alt text](images/img4.4.png)
+
 
 
 #Using tr command
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
-![Alt text](images/img4.5.png)
+
 cat < urllist.txt
 ```
 www. yahoo. com
@@ -355,18 +356,19 @@ www. mrcet.... com
  ```
 cat urllist.txt | tr -d ' '
  ## OUTPUT
-![Alt text](images/img4.6.png)
+
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
-![Alt text](images/img4.7.png)
+
 
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
-![Alt text](images/img4.8.png)
+
+
 mkdir backupdir
  
 mv backup.tar backupdir
@@ -375,7 +377,7 @@ cd backupdir
  
 tar -tvf backup.tar
 ## OUTPUT
-![Alt text](images/im99.png)
+
 
 tar -xvf backup.tar
 ## OUTPUT
