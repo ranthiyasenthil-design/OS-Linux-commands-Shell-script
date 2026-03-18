@@ -894,7 +894,7 @@ done
 $ chmod 755 fornested1.sh
  
 $ ./fornested1.sh 
- ## OUTPUT
+## OUTPUT
 ![image](images/nn.png)
  
 cat forbreak.sh 
@@ -948,7 +948,7 @@ echo "Hello $name, welcome to my program. "
  ```
  
 $ chmod 755 exread.sh 
- 
+``` 
 $ ./exread.sh 
 ## OUTPUT
 ![image](images/xx.png)
@@ -961,7 +961,7 @@ read -p "Enter your name: " name
 echo "Hello $name, welcome to my program. “
 ``` 
 $ chmod 755 exread1.sh 
-
+```
 ## OUT![image](images/mmm.png)PUT
 
 
