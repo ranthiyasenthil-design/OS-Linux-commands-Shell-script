@@ -850,7 +850,7 @@ Bhadrachalam
 Khammam
 
 ## OUTPUT
-
+![image](images/pp.png)
 
 cat forctype.sh 
 ```bash
@@ -863,8 +863,7 @@ done
 ````
 $ chmod 755 forctype.sh
 $ ./forctype.sh 
-## OUTPUT
-![image](images/pp.png)
+
 cat forctype1.sh 
 ```bash
 #!/bin/bash
@@ -1065,9 +1064,10 @@ obcdfghj
 bcdfghj
 ubcdfghj
 ```
-awk -f nc.awk data.dat
 ## OUTPUT 
- ![image](images/ii.png)
+![image](images/ii.png)
+awk -f nc.awk data.dat
+
 cat > palindrome.sh
 ```bash
 #num=545
