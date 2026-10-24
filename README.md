@@ -48,19 +48,23 @@ cat < file1
 
 cat < file2
 ## OUTPUT
-![image](images/image2.png)
+<img width="722" height="179" alt="image" src="https://github.com/user-attachments/assets/7caea93d-af1a-4ade-866e-5e389e424c55" />
+
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
-![image](images/image3.png) 
+<img width="696" height="80" alt="image" src="https://github.com/user-attachments/assets/55c242ba-000b-4fea-a0bb-5086f6f345af" />
+
 comm file1 file2
  ## OUTPUT
-![image](images/image4.png)
+<img width="722" height="179" alt="image" src="https://github.com/user-attachments/assets/3c4648af-debf-426d-b775-e584ab33203d" />
+
  
 diff file1 file2
 ## OUTPUT
-![image](images/image5.png)
+<img width="662" height="272" alt="image" src="https://github.com/user-attachments/assets/60e205a9-1da2-4aba-a4ef-0038cdb4f7aa" />
+
 
 #Filters
 
@@ -83,17 +87,20 @@ cut
 
 cut -c1-3 file11
 ## OUTPUT
-![image](images/image6.png)
+
+<img width="610" height="99" alt="image" src="https://github.com/user-attachments/assets/2b10e821-8aac-46e9-ae60-599659597d3a" />
 
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
-![image](images/image7.png)
+<img width="644" height="134" alt="image" src="https://github.com/user-attachments/assets/4274c712-c6b4-4c43-b668-9e08a163d586" />
+
 
 cut -d "|" -f 2 file22
 ## OUTPUT
-![image](images/img8.png)
+<img width="789" height="131" alt="image" src="https://github.com/user-attachments/assets/930733d1-c0a0-4710-88e2-0d1c9635b36c" />
+
 
 cat < newfile 
 ```
@@ -107,23 +114,27 @@ hello world
  
 grep Hello newfile 
 ## OUTPUT
-![image](images/img9.png)
+<img width="480" height="75" alt="image" src="https://github.com/user-attachments/assets/ff04ef20-0323-4389-93e8-aa76e2035266" />
+
 
 
 grep hello newfile 
 ## OUTPUT
-![image](images/img10.png)
+<img width="480" height="75" alt="image" src="https://github.com/user-attachments/assets/46ed2d36-9e30-436f-8d2f-35b3a94c0bc8" />
+
 
 
 
 grep -v hello newfile 
 ## OUTPUT
-![image](images/img1.1.png)
+<img width="786" height="87" alt="image" src="https://github.com/user-attachments/assets/cc5b6e08-abe9-4de5-999d-6d69c5e28ba0" />
+
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
-![image](images/img1.2.png)
+<img width="545" height="106" alt="image" src="https://github.com/user-attachments/assets/706de950-5c7a-4c04-9a5f-0546122515e6" />
+
 
 
 
