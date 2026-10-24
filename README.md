@@ -775,7 +775,8 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
-![image](images/p4.png)
+<img width="778" height="292" alt="image" src="https://github.com/user-attachments/assets/65703c31-108c-4851-bd9a-a6b4922c3c52" />
+
 # using the case command
 cat >casecheck.sh 
 ```bash
@@ -794,7 +795,9 @@ esac
 $ chmod 755 casecheck.sh 
  
 $ ./casecheck.sh 
- ![image](images/p5.png)
+
+<img width="547" height="104" alt="image" src="https://github.com/user-attachments/assets/d5ce2190-9ac3-45c0-a932-7ac7c41825b1" />
+
 cat > whiletest
 ```bash
 #!/bin/bash
@@ -809,7 +812,8 @@ done
 $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
-![image](images/p6.png) 
+<img width="745" height="329" alt="image" src="https://github.com/user-attachments/assets/027b3bde-a36d-4b6d-af72-a9af41031d71" />
+ 
  
 cat untiltest.sh 
 ```bash
@@ -823,7 +827,8 @@ done
 ``` 
 $ chmod 755 untiltest.sh
  
- ![image](images/p7.png)
+<img width="551" height="171" alt="image" src="https://github.com/user-attachments/assets/ba05a5cd-1d56-4b2f-8a0b-d4a2e2475f70" />
+
  
 cat forin1.sh 
 ```bash
@@ -836,7 +841,8 @@ done
  ```
  
 $ chmod 755 forin1.sh
- ![image](images/p8.png)
+<img width="757" height="230" alt="image" src="https://github.com/user-attachments/assets/95c6373a-9fbe-4706-9673-ab316bafdf42" />
+
  
 cat forin2.sh 
 ```bash
@@ -912,7 +918,8 @@ Bhadrachalam
 Khammam
 
 ## OUTPUT
-![image](images/pp.png)
+<img width="557" height="228" alt="image" src="https://github.com/user-attachments/assets/250d6161-2abc-46d8-a3f4-ff4ee263a9fd" />
+
 
 cat forctype.sh 
 ```bash
@@ -925,6 +932,8 @@ done
 ````
 $ chmod 755 forctype.sh
 $ ./forctype.sh 
+##output
+<img width="649" height="223" alt="image" src="https://github.com/user-attachments/assets/be316c8e-ef5e-4f5b-866d-38420ded8715" />
 
 cat forctype1.sh 
 ```bash
@@ -938,7 +947,10 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
-![image](images/dd.png)
+
+<img width="594" height="230" alt="image" src="https://github.com/user-attachments/assets/0e165254-fbc1-45bc-a596-650406e8fd2f" />
+
+
 cat fornested1.sh 
 ```bash
 #!/bin/bash
@@ -956,7 +968,9 @@ $ chmod 755 fornested1.sh
  
 $ ./fornested1.sh 
 ## OUTPUT
-![image](images/nn.png)
+
+<img width="636" height="404" alt="image" src="https://github.com/user-attachments/assets/960bb9e8-4322-4f1d-bcd3-ac1111a51cd8" />
+
  
 cat forbreak.sh 
 ```bash
@@ -973,7 +987,9 @@ done
 echo "The for loop is completed“
 ```
 ## OUTPUT
-![cd](images/bb.png)
+
+<img width="619" height="175" alt="image" src="https://github.com/user-attachments/assets/afa290d7-13eb-4adb-8d27-1ddd23de4b21" />
+
 $ chmod 755 forbreak.sh
  
 $ ./forbreak.sh 
